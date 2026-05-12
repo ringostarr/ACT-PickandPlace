@@ -2,12 +2,10 @@
 
 An Action Chunking Transformer (ACT) policy trained by behaviour cloning on the panda-gym `PandaPickAndPlace-v3` task. Reaches 72% success over 50 randomized evaluation trials.
 
-See `ACT_report.docx` for the writeup and `success_clips.mp4` for example rollouts.
-
 ## Setup
 
 ```bash
-git clone <this-repo>
+git clone ringostarr/ACT-PickandPlace
 cd ACT_picknplace
 
 conda create -n act_picknplace python=3.10
