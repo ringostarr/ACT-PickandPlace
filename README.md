@@ -47,8 +47,6 @@ ACT_picknplace/
 ├── inspect_demo.py                   # visualize one HDF5 episode
 ├── demo_frames.png                   # sample camera frames
 ├── README.md                         # this file
-├── ACT_report.docx                   # 1-2 page writeup
-└── success_clips.mp4                 # demo video, 5+ successful rollouts
 ```
 
 The data path used during training is set inside `ACT/config/config.py` (`DATA_DIR`). Update it to point at whatever subfolder of `data/` your collector wrote to.
