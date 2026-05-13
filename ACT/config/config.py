@@ -4,7 +4,7 @@ os.environ['PYTORCH_ENABLE_MPS_FALLBACK'] = "1"
 import torch
 
 # data directory
-DATA_DIR =  'E:/ACT_picknplace/data/pick_and_place_ee_highres'
+DATA_DIR =  'E:\ACT-PickandPlace\data\pick_and_place_4cam_absjoint_noisy_goalqpos'
 
 # checkpoint directory
 CHECKPOINT_DIR = 'checkpoints/'
